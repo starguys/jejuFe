@@ -12,3 +12,14 @@ Yujin Hyewon
 출력
 {'Yujin': 70, 'Hyewon': 100}
 */
+
+let result = {};
+
+let name = ["Yujin", "Hyewon"];
+let score = [70, 100];
+
+for (let i = 0; i < name.length; i++) {
+  result[name[i]] = score[i];
+}
+
+console.log(result);

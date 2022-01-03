@@ -6,3 +6,16 @@
 
 입력으로 반지림의 길이 정수 n이 주어지면 원의 넓이를 반환하는 함수를 만들어 주세요.
 */
+
+function circle(n) {
+  return n * n * 3.14;
+}
+
+let output = circle(2);
+console.log(output);
+
+let hiput = (n) => {
+  return n * n * 3.14;
+};
+
+console.log(hiput(2));

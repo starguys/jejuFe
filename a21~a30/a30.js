@@ -14,3 +14,6 @@ apple
 출력
 4
 */
+
+let str1 = "pineapple is yummy";
+let str2 = "apple";

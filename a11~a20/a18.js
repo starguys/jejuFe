@@ -12,3 +12,13 @@
 출력 : 30
 
 */
+
+const score = ["70", "82", "95"];
+let sum = 0;
+
+for (let i = 0; i < score.length; i++) {
+  sum += parseInt(score[i]);
+}
+
+let avg = sum / score.length;
+console.log(Math.floor(avg));

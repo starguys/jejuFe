@@ -21,3 +21,14 @@ p t
 
 입력으로 문자열이 주어지면 2-gram으로 출력하는 프로그램을 작성해 주세요.
 */
+
+let str = "Javascrpit";
+
+let strArr = str.split("");
+
+console.log(strArr);
+
+for (let i = 0; i < strArr.length - 1; i++) {
+  let result = strArr[i] + " " + strArr[i + 1];
+  console.log(result);
+}

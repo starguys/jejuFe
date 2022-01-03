@@ -9,3 +9,7 @@
 출력 : 로꾸거
 
 */
+
+let str = "거꾸로";
+
+console.log(str.split("").reverse().join(""));

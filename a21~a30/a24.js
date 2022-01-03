@@ -12,3 +12,7 @@
 입력 : mary
 출력 : MARY
 */
+
+let name = "mary";
+
+console.log(name.toUpperCase());

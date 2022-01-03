@@ -10,3 +10,12 @@
 출력 : 5 0
 
 */
+
+const num = ["10", "2"];
+
+let result = [];
+
+result[0] = num[0] / num[1];
+result[1] = num[0] % num[1];
+
+console.log(result);
