@@ -17,3 +17,5 @@ apple
 
 let str1 = "pineapple is yummy";
 let str2 = "apple";
+
+console.log(str1.indexOf(str2));
