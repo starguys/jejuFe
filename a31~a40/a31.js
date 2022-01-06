@@ -9,3 +9,5 @@
 4) arr.pop()
 5) arr.includes(5)
 */
+
+// 1,3
